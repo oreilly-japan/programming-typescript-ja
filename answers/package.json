@@ -1,0 +1,9 @@
+{
+  "name": "answers",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "typescript": "^3.7.5"
+  }
+}
