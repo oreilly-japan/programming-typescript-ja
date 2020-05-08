@@ -17,18 +17,8 @@
 
 ## 正誤表
 
-下記の誤りがありました。お詫びして訂正いたします。
+本書の正誤情報は以下のページで公開しています。
 
-本ページに掲載されていない誤植など間違いを見つけた方は、japan@oreilly.co.jpまでお知らせください。
+https://github.com/oreilly-japan/programming-typescript-ja/wiki/errata
 
-### 第1刷
-
-#### ■5章 P.92 下から5行目
-**誤**
-```
-抽象ロパティ
-```
-**正**
-```
-抽象プロパティ
-```
+本ページに掲載されていない誤植など間違いを見つけた方は、[japan＠oreilly.co.jp](<mailto:japan＠oreilly.co.jp>)までお知らせください。
