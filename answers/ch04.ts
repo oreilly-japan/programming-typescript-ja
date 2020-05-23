@@ -75,12 +75,9 @@ is(10, 'foo') // エラー TS2345: 型 '"foo"' の引数を型 'number' の
               // パラメーターに割り当てることはできません。
 
 // ［難問］任意の数の引数を渡せるようにします
-is([1], [1], [1]) // true
-is([1], [1, 2], [1, 2, 3]) // false
+is(1, 1, 1) // true
+is(1, 2, 3) // false
 
 function is<T>(a: T, ...b: [T, ...T[]]): boolean {
-  if (typeof a === 'object') {
-    return b.every(_ => JSON.stringify(_) === JSON.stringify(a))
-  }
   return b.every(_ => _ === a)
 }
