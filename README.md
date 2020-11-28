@@ -22,3 +22,7 @@
 https://github.com/oreilly-japan/programming-typescript-ja/wiki/errata
 
 本ページに掲載されていない誤植など間違いを見つけた方は、[japan＠oreilly.co.jp](<mailto:japan＠oreilly.co.jp>)までお知らせください。
+
+## TypeScriptのバージョンについて
+
+本書の原著は2019年5月に出版されたもので、その時点でのTypeScriptの最新バージョンである、3.4までの機能がおおむねカバーされています。また翻訳にあたり、翻訳時点での最新バージョンである3.8までに変更のあった機能については、適宜記述を修正しています。
